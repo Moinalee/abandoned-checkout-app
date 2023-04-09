@@ -1,0 +1,30 @@
+.Messages__table {
+	width: 95%;
+	border-collapse: collapse;
+	margin: 2%;
+}
+
+.Messages__table th,
+.Messages__table td {
+	padding: 8px;
+	text-align: left;
+	border: 1px solid #ddd;
+}
+
+.Messages__table th {
+	font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+	.Messages__table th,
+	.Messages__table td {
+		padding: 16px;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.Messages__table th,
+	.Messages__table td {
+		padding: 24px;
+	}
+}

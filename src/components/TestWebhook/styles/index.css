@@ -1,0 +1,113 @@
+.TestWebhook__form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	padding: 0 16px;
+}
+
+.TestWebhook__options {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 16px;
+}
+
+.TestWebhook__option {
+	display: flex;
+	align-items: center;
+	margin-right: 24px;
+	margin-bottom: 8px;
+}
+
+input[type='radio'] {
+	margin-right: 8px;
+}
+
+.TestWebhook__json-input {
+	width: 100%;
+	margin-bottom: 24px;
+}
+
+textarea {
+	width: 100%;
+	height: 200px;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: none;
+	font-family: inherit;
+	font-size: inherit;
+}
+
+button {
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	padding: 8px 16px;
+	border-radius: 4px;
+	font-family: inherit;
+	font-size: inherit;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #0069d9;
+}
+
+@media screen and (min-width: 768px) {
+	.TestWebhook__form {
+		padding: 0;
+	}
+
+	.TestWebhook__options {
+		margin-bottom: 32px;
+	}
+
+	.TestWebhook__option {
+		margin-right: 32px;
+		margin-bottom: 0;
+	}
+
+	input[type='radio'] {
+		margin-right: 16px;
+	}
+
+	.TestWebhook__json-input {
+		width: 50%;
+		margin-bottom: 0;
+	}
+
+	button {
+		margin-left: 16px;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.TestWebhook__options {
+		margin-bottom: 48px;
+	}
+
+	.TestWebhook__json-input {
+		width: 60%;
+	}
+
+	button {
+		margin-left: 32px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.TestWebhook__option {
+		margin-right: 48px;
+	}
+
+	.TestWebhook__json-input {
+		width: 40%;
+	}
+
+	button {
+		margin-left: 48px;
+	}
+}
